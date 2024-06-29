@@ -13,6 +13,7 @@ export default ({ title, focused }: { title: string; focused: boolean }) => {
             : themeColor.primary
           : "rgb(143, 155, 179)",
         fontSize: 10,
+        display: 'none',
       }}
     >
       {title}

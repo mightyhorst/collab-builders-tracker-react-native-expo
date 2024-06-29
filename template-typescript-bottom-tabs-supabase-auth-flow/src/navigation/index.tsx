@@ -1,7 +1,7 @@
-import React, { useContext } from 'react';
+import React, { useContext, useEffect } from 'react';
 import { AuthContext } from '../provider/AuthProvider';
 
-import { NavigationContainer } from '@react-navigation/native';
+import { NavigationContainer, useTheme } from '@react-navigation/native';
 
 import Main from './MainStack';
 import Auth from './AuthStack';

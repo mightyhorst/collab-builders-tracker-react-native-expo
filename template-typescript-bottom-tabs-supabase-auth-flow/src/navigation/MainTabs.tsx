@@ -8,8 +8,19 @@ import TabBarText from "../components/utils/TabBarText";
 import Home from "../screens/Home";
 import About from "../screens/About";
 import Profile from "../screens/Profile";
+import { MainTabsParamList } from "../types/navigation";
 
-const Tabs = createBottomTabNavigator();
+// src/types/navigation.ts
+// export type MainTabsParamList = {
+//   Home: undefined;
+//   Profile: undefined;
+//   About: undefined;
+// };
+
+// Define any other navigation param lists as needed
+
+
+const Tabs = createBottomTabNavigator<MainTabsParamList>();
 const MainTabs = () => {
   const { isDarkmode } = useTheme();
   return (

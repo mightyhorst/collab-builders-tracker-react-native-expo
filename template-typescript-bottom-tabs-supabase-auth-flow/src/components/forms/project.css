@@ -1,0 +1,221 @@
+/**
+* @namespace 📘 Page
+**/
+.page-header {
+    display: flex;
+    padding: 15px 5px;
+    flex-direction: column;
+  }
+  .h1 {
+    font-weight: 500;
+    font-size: 1.2rem;
+    display: flex;
+    text-indent: 5px;
+    margin: 0;
+    padding: 0;
+  }
+  .h4 {
+    font-weight: 500;
+    font-size: 0.8rem;
+    display: flex;
+    text-indent: 5px;
+    margin: 0;
+    padding: 0;
+    color: #0088cc;
+  }
+  /**
+  * @namespace 🐶 Cat
+  **/
+  .cat {
+  }
+  .cat__header {
+    background-color: rgba(0, 0, 0, 0.02);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    height: 30px;
+    font-weight: 600;
+    -webkit-font-smotthing: antialiased;
+    flex: 1 1;
+  }
+  .cat__code {
+    border-right: 1px solid rgba(0, 0, 0, 0.1);
+    height: 100%;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .cat__description {
+    height: 100%;
+    justify-content: flex-start;
+    align-items: center;
+    display: flex;
+    padding-left: 10px;
+  }
+  .cat__body {
+  }
+  
+  /**
+  * @namespace 🐧 SubCat
+  **/
+  .sub-cat {
+  }
+  .sub-cat__header {
+    background-color: rgba(0, 0, 0, 0.02);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    /* border-top: 0; */
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    height: 30px;
+    font-weight: 600;
+    -webkit-font-smotthing: antialiased;
+    flex: 1 1;
+  }
+  .sub-cat__code {
+    border-right: 1px solid rgba(0, 0, 0, 0.1);
+    height: 100%;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .sub-cat__description {
+    height: 100%;
+    justify-content: flex-start;
+    align-items: center;
+    display: flex;
+    padding-left: 10px;
+  }
+  .sub-cat__body {
+    margin-left: 31px;
+  }
+  
+  /**
+  * @namespace 🦊 Title
+  **/
+  .sub-cat-title {
+  }
+  .sub-cat-title__header {
+    background-color: rgba(0, 0, 0, 0.02);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-top: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    height: 30px;
+    font-weight: 400;
+    font-style: italic;
+    color: rgba(0, 0, 0, 0.8);
+    -webkit-font-smotthing: antialiased;
+    flex: 1 1;
+  }
+  .sub-cat-title__code {
+  }
+  .sub-cat-title__name {
+    padding-left: 5px;
+  }
+  .sub-cat-title__body {
+  }
+  
+  /**
+  * @namespace 🦜 Task
+  **/
+  .task {
+    /* background-color: rgba(0, 0, 0, 0.01); */
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-top: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    min-height: 60px;
+    height: 60px;
+  
+    font-weight: 500;
+    -webkit-font-smotthing: antialiased;
+    flex: 1 1;
+  }
+  .task:nth-of-type(even) {
+    background-color: rgba(0, 0, 0, 0.01);
+  }
+  .task__code {
+    border-right: 1px solid rgba(0, 0, 0, 0.1);
+    height: 100%;
+    padding: 0 0px;
+    min-width: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 12px;
+    flex: 0 0 50px;
+  }
+  .task__desc {
+    height: 100%;
+    justify-content: flex-start;
+    align-items: center;
+    display: flex;
+    padding-left: 10px;
+    flex: 1 1;
+  }
+  .task__start {
+    border-left: 1px solid rgba(0, 0, 0, 0.1);
+    height: 100%;
+    padding: 0 0px;
+    min-width: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 12px;
+    flex: 0 0 50px;
+  }
+  .task__start > button {
+    background-color: #0095ff;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    box-shadow: rgba(255, 255, 255, 0.4) 0 1px 0 0 inset;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: -apple-system, system-ui, 'Segoe UI',
+      'Liberation Sans', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 1.15385;
+    margin: 0;
+    outline: none;
+    padding: 8px 0.8em;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: baseline;
+    white-space: nowrap;
+  }
+  .task__start > button:hover,
+  .task__start > button:focus {
+    background-color: #07c;
+  }
+  .task__start > button:focus {
+    box-shadow: 0 0 0 4px rgba(0, 149, 255, 0.15);
+  }
+  .task__start > button:active {
+    background-color: #0064bd;
+    box-shadow: none;
+  }
+  

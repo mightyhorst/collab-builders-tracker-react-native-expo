@@ -11,7 +11,7 @@ export default function App() {
     require("./assets/images/forget.png"),
   ];
   return (
-    <ThemeProvider images={images}>
+    <ThemeProvider theme='dark' isDarkmode={true} images={images}>
       <AuthProvider>
         <Navigation />
       </AuthProvider>

@@ -27,6 +27,9 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "experiments": {
+      "baseUrl": "/collab-builders-tracker-react-native-expo"
     }
   }
 }

@@ -1,6 +1,6 @@
 import React from "react";
 import { View } from "react-native";
-import { MainStackParamList } from "../types/navigation";
+import { MainStackParamList, MainTabsParamList } from "../types/navigation";
 import { NativeStackScreenProps } from "@react-navigation/native-stack";
 import {
   Layout,
@@ -14,6 +14,7 @@ import { Ionicons } from "@expo/vector-icons";
 export default function ({
   navigation,
 }: NativeStackScreenProps<MainStackParamList, "SecondScreen">) {
+// }: NativeStackScreenProps<MainTabsParamList, "About">) {
   const { isDarkmode, setTheme } = useTheme();
   return (
     <Layout>
